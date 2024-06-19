@@ -11,11 +11,12 @@ const App = () => {
     setSelectedColor(color);
   };
 
-  const colors = ['red', 'green', 'blue', 'yellow', 'purple', 'orange'];
+  const colors = [ 'green','red', 'yellow', 'grey', 'indigo', 'orange','pink'];
 
   return (
     <div className="App" style={{ backgroundColor: selectedColor, transition: 'background-color 0.5s' }}>
       <h1>Color Picker</h1>
+      <h3>Select a color to see changes!</h3>
       <ColorList colors={colors} onColorClick={handleColorClick} />
     </div>
   );
