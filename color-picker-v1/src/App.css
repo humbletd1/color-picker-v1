@@ -1,4 +1,12 @@
+/*this handles the styling*/
 .App {
   text-align: center;
+  height: 500px;
+  width: 100%;
+  padding: 50px;
+  transition: background-color 0.5s ease;
 }
 
+h1 {
+  color: #333;
+}

@@ -1,7 +1,7 @@
 // This component displays a list of ColorOption components. It receives an array of color values and the click handler function as props.
 
 import React from 'react';
-import ColorOption from './colorOption';
+import ColorOption from './ColorOption';
 
 const ColorList = ({ colors, onColorClick }) => {
   return (
