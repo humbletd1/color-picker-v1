@@ -8,11 +8,14 @@ const ColorOption = ({ color, onClick }) => {
       onClick={() => onClick(color)}
       style={{
         backgroundColor: color,
-        width: '50px',
-        height: '50px',
+        width: '60px',
+        height: '60px',
         display: 'inline-block',
         cursor: 'pointer',
         margin: '5px',
+        borderRadius: '50px',
+        justifyContent:'center',
+        alignContent:'center',
       }}
     />
   );
